@@ -12,7 +12,7 @@ export default function GameModeButton({ amountOfPlayers }) {
 useEffect(()=> {
   if(amountOfPlayers === 1) Setfoto([Playr1])
   if(amountOfPlayers === 4) Setfoto([Playr1,Playr4,Playr4,Playr4])
-})
+},[])
   const handleClick = () => {
     setPlayers(amountOfPlayers);
     navigate('/start');
