@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  border: 0;
+  font-family: sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+input{
+  color: #121212;
+}
+
+.button-login{
+  color: #121212;
+}
+
+.finsh{
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #12121200;
+}
+#root{
+  width: 100vw;
+  height: 100vh;
+}
+
+.finsh-home{
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 87vh;
+  align-items: center;
+  flex-direction: row;
+  background-color: #12121200;
+  gap: 15px;
+}
+.game{
+  background-image: url('../imgs/baralho-de-cartas-de-baralho-em-espaco-de-copia-de-mesa-de-fundo-verde_251763-203.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.One{
+  background-color: #12121200;
+}
+/* .player:hover{
+background-color: rgb(0, 79, 148);
+border-radius: 15px;
+width: 150px;
+} */
+
+.center-play{
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.center-cards{
+  border-radius: 15px;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #7a727265;
+  justify-content: space-around;
+}
+
+.bot {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: cadetblue;
+  width: 100px;
+  height: 30px;
+  flex-direction: row;
+  gap: 15px;
+  flex-flow: row;
+}
+
+.bot-cards {
+  /* border: 1px solid red; */
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-flow: column; */
+}
+
+.fourplayers-container {
+  display: flex;
+  gap: 15px;
+  /* border: 1px solid red; */
+}
+
+.historic {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,76 @@
+.container-play{
+  text-align: center;
+  color: #121212;
+  /* border: 1px solid rgb(5, 255, 134); */
+}
+
+.text-color {
+  color: aliceblue;
+}
+.player{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #12121200;
+}
+
+.fourplayer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  flex-wrap: wrap;
+  background-color: #12121200;
+}
+.foto{
+  background-color: #12121200;
+}
+
+.lose {
+  text-align: center;
+  font-size: 100px;
+  color: rgb(251, 252, 253);
+  background-color: #fff4f400  !important;
+  margin: 40px;
+}
+
+.count {
+  font-size: 1.4em;
+  /* border: 1px solid red; */
+  margin: 20px;
+}
+
+.deck {
+  /* border: 1px solid red; */
+  max-width: max-content;
+}
+.wall{
+  background-image: url('../imgs/baralho-de-cartas-de-baralho-em-espaco-de-copia-de-mesa-de-fundo-verde_251763-203.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.historic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #12121280;
+  width: 150px;
+  height: auto;
+}
+
+.cards {
+  max-height: max-content;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  /* border: 1px solid rgb(170, 0, 255); */
+  /* margin: 20px; */
+  /* padding: 40px; */
+}
+
+.card {
+  border: 1px solid red;
+  margin: 20px;
+}

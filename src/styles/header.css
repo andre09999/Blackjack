@@ -1,0 +1,41 @@
+.Header {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  /* margin-top: 50px; */
+  background-color: #21212183;
+  border: 5px;
+  color: aliceblue;
+  /* border: 1px solid red; */
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.link-header{
+  background-color: #21212100;
+}
+
+.Header p {
+  /* border: 1px solid red; */
+  background-color: #21212100;
+  text-decoration-color: red;
+  font-size: 2em;
+  font-weight: bold;
+
+}
+.center-history{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.Header div {
+  display: flex;
+  align-content: space-around;
+  background-color: #212121;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px;
+}
