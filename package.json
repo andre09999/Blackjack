@@ -23,7 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://andre09999.github.io/blackjack", 
+  "homepage": "https://andre09999.github.io/Blackjack", 
   "eslintConfig": {
     "extends": [
       "react-app",

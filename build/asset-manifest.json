@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Blackjack/static/css/main.ca03206f.css",
+    "main.js": "/Blackjack/static/js/main.5b21d255.js",
+    "static/js/787.0aa9ab12.chunk.js": "/Blackjack/static/js/787.0aa9ab12.chunk.js",
+    "static/media/images.jpg": "/Blackjack/static/media/images.c8069545b357e5d6622e.jpg",
+    "static/media/las-vegas-m.jpeg": "/Blackjack/static/media/las-vegas-m.c8069545b357e5d6622e.jpeg",
+    "static/media/baralho-de-cartas-de-baralho-em-espaco-de-copia-de-mesa-de-fundo-verde_251763-203.jpeg": "/Blackjack/static/media/baralho-de-cartas-de-baralho-em-espaco-de-copia-de-mesa-de-fundo-verde_251763-203.b081c36b4e356a952f46.jpeg",
+    "static/media/download-removebg-preview.png": "/Blackjack/static/media/download-removebg-preview.cca289a861d8fe362752.png",
+    "static/media/images-removebg-preview.png": "/Blackjack/static/media/images-removebg-preview.3dd932d7c3c762a5ad93.png",
+    "index.html": "/Blackjack/index.html",
+    "main.ca03206f.css.map": "/Blackjack/static/css/main.ca03206f.css.map",
+    "main.5b21d255.js.map": "/Blackjack/static/js/main.5b21d255.js.map",
+    "787.0aa9ab12.chunk.js.map": "/Blackjack/static/js/787.0aa9ab12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca03206f.css",
+    "static/js/main.5b21d255.js"
+  ]
+}
