@@ -1,16 +1,23 @@
 import { useContext } from "react"
+import { useNavigate } from 'react-router-dom';
 import Context from "../Context/context"
 import '../styles/header.css'
 
 function Header({ inGame }) {
   const { balance, betValue } = useContext(Context);
+  const navigate = useNavigate();
 
   return(
     <header className="Header">
-        <p>Balance: {balance}</p>
-        <p>Betting: {betValue}</p>
+        <p>Balance: {balance} KLV</p>
+        <p>Betting: {betValue} KLV</p>
         <p className="p">
-        { !inGame && <a href="/history">Bet history</a> }
+        { !inGame && <button className="button-menu" onClick={(event) => {
+           navigate('/history')
+           event.preventDefault()
+  ;}
+  }
+>Bet history</button> }
         </p>
         <p>
         <a href="/">Logout</a>
@@ -20,3 +27,4 @@ function Header({ inGame }) {
 }
 
 export default Header
+

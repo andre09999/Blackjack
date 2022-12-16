@@ -56,7 +56,6 @@
   align-items: center;
   justify-content: center;
   background-color: #12121280;
-  width: 150px;
   height: auto;
 }
 
@@ -71,6 +70,6 @@
 }
 
 .card {
-  border: 1px solid red;
+ 
   margin: 20px;
 }

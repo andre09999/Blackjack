@@ -1,19 +1,23 @@
 import React, { useContext } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Context from '../Context/context';
 
 export default function History() {
   const { balanceHistory } = useContext(Context);
+  const navigate = useNavigate();
 
   return (
     <div className='historic-center'>
       <ul className='Lista'>
         <h1 className='h'>History Bet</h1>
       <li className='historic'>
-        {balanceHistory.map((balance, index) => <li key={ `${balance}${index}` }>{ balance }</li>)}
+        {balanceHistory.map((balance, index) => <li key={ `${balance}${index}` }>{ balance } KLV</li>)}
       </li>
       </ul>
-      <a className='button aq' href="/home" >Back</a>
+      <button className='button' type="button" onClick={(event) => {
+        navigate('/home')
+        event.preventDefault();}
+        } >Back</button>
     </div>
   );
 }
-

@@ -30,7 +30,12 @@ input{
 .aq{
   text-align: center;
 }
-
+.button-menu{
+  color: white;
+  background-color: #12121200;
+  font-size: 24px;
+  font-weight: bold;
+}
 .finsh-home{
   display: flex;
   justify-content: space-around;
@@ -79,7 +84,7 @@ width: 150px;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background-color: cadetblue;
+  background-color: rgba(95, 158, 160, 0);
   width: 100px;
   height: 30px;
   flex-direction: row;
@@ -103,11 +108,17 @@ width: 150px;
   gap: 15px;
   /* border: 1px solid red; */
 }
-
+.historic > li {
+  background-color: #12121200;
+  text-decoration: none;
+  list-style: none;
+}
 .historic {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  display: flex;
+  justify-content: center; 
+  align-items: center;
   font-size: 20px;
   font-weight: bold;
+  width: 90%;
+  border-radius: 15px;
 }

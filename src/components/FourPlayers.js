@@ -27,7 +27,7 @@ export default function FourPlayers() {
     };
 
     checkWinner();
-  }, [bot1, bot2, bot3, player]);
+  });
 
   const redirectToResult = () => {
     if (playerWin) {
@@ -39,6 +39,7 @@ export default function FourPlayers() {
   
   return (
     <div className='center fourplayers-container One'>
+      <div className='alinha'>
       <Player inTurn={ player.inTurn } stop={ player.stop } setInfo={ setPlayer }/>
       <NextButton 
         playing={[
@@ -50,19 +51,29 @@ export default function FourPlayers() {
         turn={ turn }
         setTurn={ setTurn }
       />
+      </div>
+      <div className='jogadores-bot'>
       <div className='bot One'>
-        <p  className='One'>Player 2</p>
+        <p  className='One player-r'>Player 2</p>
+        <div className='cardss'>
         <Bot inTurn={ bot1.inTurn } stop={ bot1.stop } setInfo={ setBot1 } />
+        </div>
       </div>
       <div  className='bot One'>
-        <p  className='One'>Player 3</p>
+        <p  className='One player-r'>Player 3</p>
+        <div className='cardss'>
         <Bot inTurn={ bot2.inTurn } stop={ bot2.stop } setInfo={ setBot2 } />
+        </div>
       </div>
       <div  className='bot One'>
-        <p  className='One'>Player 4</p>
+        <p  className='One player-r'>Player 4</p>
+        <div className='cardss'>
         <Bot inTurn={ bot3.inTurn } stop={ bot3.stop } setInfo={ setBot3 } />
+        </div>
+      </div>
       </div>
       { gameOver && redirectToResult() }
     </div>
+  
   )
 }

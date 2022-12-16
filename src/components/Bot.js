@@ -35,7 +35,7 @@ export default function Bot({ inTurn, stop, setInfo }) {
   return (
     playing ? (
       hand.map((card) => (
-        <div key={ card.code }>
+        <div key={ card.code } className='bot'>
           { stop && <span>I pass</span> }
           <Card card={ card } key={ card.code } isUp={ false } />
         </div>

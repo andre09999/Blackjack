@@ -172,6 +172,25 @@ a:hover{
 .h1 {
     background-color: cadetblue;
 }
+.descricao > h1{
+      
+    background-color:  #12121200 !important;
+   }
+   .descricao > h3{
+ 
+    background-color:  #12121200 !important;
+   }
+   .descricao > p{
+  
+    background-color:  #12121200 !important;
+   }
+   .descricao{
+    background-color: #12121200 !important;
+} 
+.descricao{
+    background-color: #12121294 !important;
+    text-align: center;
+}
 
 @media screen and (max-width: 1367px) {
     .fourplayer {
@@ -184,10 +203,72 @@ a:hover{
         height: 80vh !important;
         width: 100vw !important;
     }
-
+    .fourplayer {
+        width: 15vw;
+    }
+    .foto {
+        width: 13vw;
+    }
+    .container-play{
+        margin: 0;
+    }  
+    .form-start{
+        margin: 15px;
+    }
+    .center-play{
+        margin: 0 !important;
+    }
+    .card{
+        width: 120px;
+       }
+    .finsh{
+        margin: 10vh !important;
+       }
+       .center-player1{
+        margin: 5vh !important;
+       }
+       .center{
+        display: flex !important;
+        flex-direction: row;
+       }
+       .alinha{
+        display: flex;
+        flex-direction: column;
+        background-color: #12121200;
+        align-items: center;
+       }
+       .jogadores-bot{
+        display: flex;
+        background-color: #12121200;
+        align-items:  flex-start !important;
+        justify-content: space-around !important;
+        flex-wrap: wrap;
+        width: 80vw;
+       }
+       .bot{
+        display: flex;
+        flex-direction: column !important;
+        height: 170px !important;
+        width: 122px !important;
+        align-items: center !important;
+        justify-content: center !important;
+        
+       }
+       .player-r{
+        background-color: #121212 !important;
+        border-radius: 15px;
+        padding: 15px;
+       }
+       .cardss{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+        background-color: #12121200 !important;
+       }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1025px) {
     .fourplayer {
         width: 20vw;
     }
@@ -207,6 +288,7 @@ a:hover{
     }
     p{
         padding: 10px;
+        background-color: #12121200 !important;
     }
     .fourplayer{
        width: 100% !important;
@@ -217,6 +299,7 @@ a:hover{
     .One{
         margin: 5px !important;
     }
+   
 }
 
 @media screen and (max-width: 767px) {
