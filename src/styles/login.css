@@ -35,6 +35,7 @@
     border-radius: 15px;
     height: 500px;
     width: 500px;
+    padding: 0;
     background-color: #ddd8d860;
 }
 .h{
@@ -291,5 +292,14 @@ a:hover{
     background-color: aquamarine !important;
     width: 90vw !important;
    }
+   .Lista{
+    width: 80vw !important;
+    height: 80vh !important;
+    padding: 0;
+  }
+  .h{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 

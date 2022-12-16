@@ -27,6 +27,9 @@ input{
   width: 100vw;
   height: 100vh;
 }
+.aq{
+  text-align: center;
+}
 
 .finsh-home{
   display: flex;
