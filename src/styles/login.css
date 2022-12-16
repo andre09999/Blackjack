@@ -246,9 +246,7 @@ a:hover{
     width: 100vw;
    }
    .descricao > p{
-    font-size: 14px;
-    display: flex;
-    flex-wrap: wrap;
+    text-align: center;
     width: 100vw;
     background-color: #918a8a00;
     word-break: break-all;
