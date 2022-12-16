@@ -37,9 +37,11 @@ function Login({history}) {
             Enter
         </button>
     </form>
+    <div className='descricao'>
     <h1>Numero de carteira simulada da Klever</h1>
     <h3>Copie a chave para conseguir acesso</h3>
     <p>klv1dym27svhh6py2t5g56rf6t36emwme2ed2wtqqdanyjf7640s583s9mq444</p>
+    </div>
   </div>
   );
 }

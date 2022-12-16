@@ -7,7 +7,7 @@ function HomePage() {
       <Header inGame={ false } />
       <main className='finsh-home'>
       <GameModeButton amountOfPlayers={1} />
-      <GameModeButton amountOfPlayers={4}/>
+      <GameModeButton amountOfPlayers={4} />
       </main>
     </div>
   )

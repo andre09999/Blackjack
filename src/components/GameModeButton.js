@@ -7,11 +7,15 @@ import Playr4 from '../imgs/images-removebg-preview.png'
 export default function GameModeButton({ amountOfPlayers }) {
   const { setPlayers } = useContext(Context);
   const[foto, Setfoto]= useState('');
+  const[foto4, Setfoto4]= useState('n');
   const navigate = useNavigate();
 
 useEffect(()=> {
   if(amountOfPlayers === 1) Setfoto([Playr1])
-  if(amountOfPlayers === 4) Setfoto([Playr1,Playr4,Playr4,Playr4])
+  if(amountOfPlayers === 4) {
+    Setfoto([Playr1,Playr4,Playr4,Playr4])
+    Setfoto4('none')
+  }
 },[amountOfPlayers])
   const handleClick = () => {
     setPlayers(amountOfPlayers);
@@ -21,7 +25,7 @@ useEffect(()=> {
 
   
   return (
-    <div className='player'>
+    <div className='player' id={foto4}>
       <div className='fourplayer'>
       {foto &&
       foto.map((a) => 
